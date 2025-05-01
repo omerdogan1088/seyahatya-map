@@ -1,5 +1,5 @@
-const HOVER_COLOR = "#FF8C42";
-const MAP_COLOR = "#FDF6EC";
+const HOVER_COLOR = "#468FAF";
+const MAP_COLOR = "#EBF2FA";
 let cityCount = localStorage.getItem("selectedCities")
   ? JSON.parse(localStorage.getItem("selectedCities")).length
   : 0;
