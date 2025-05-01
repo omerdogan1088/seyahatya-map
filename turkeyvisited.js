@@ -123,9 +123,7 @@ function downloadMap() {
     ctx.textBaseline = "top";
     ctx.font = "2em Calibri";
     ctx.fillStyle = "black";
-    ctx.textAlign = "start";
-    var textWidth = ctx.measureText("ozanyerli.github.io/turkeyvisited");
-    ctx.fillText("ozanyerli.github.io/turkeyvisited", 10, canvas.height - 25);
+    ctx.textAlign = "start";    
     ctx.fillText(cityCount + "/81", 10, 5);
 
     destCanvas.toBlob(function (blob) {
