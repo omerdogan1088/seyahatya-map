@@ -123,7 +123,9 @@ function downloadMap() {
     ctx.textBaseline = "top";
     ctx.font = "2em Calibri";
     ctx.fillStyle = "black";
-    ctx.textAlign = "start";    
+    ctx.textAlign = "start"; 
+    var textwidth = ctx.measureText("seyahatya.com");
+    ctx.fillText("seyahatya.com", 10, canvas.height - 25);   
     ctx.fillText(cityCount + "/81", 10, 5);
 
     destCanvas.toBlob(function (blob) {
